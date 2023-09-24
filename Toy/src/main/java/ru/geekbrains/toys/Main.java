@@ -1,14 +1,6 @@
 package ru.geekbrains.toys;
-
-import ru.geekbrains.toys.Raffle.ToysComparator;
 import ru.geekbrains.toys.Service.ServiceToys;
 import ru.geekbrains.toys.Toys.Toy;
-
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Queue;
-import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {

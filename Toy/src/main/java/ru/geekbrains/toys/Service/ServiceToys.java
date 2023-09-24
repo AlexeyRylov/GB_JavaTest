@@ -3,11 +3,7 @@ package ru.geekbrains.toys.Service;
 import ru.geekbrains.toys.FileWriter.WriteToFile;
 import ru.geekbrains.toys.Raffle.ToysComparator;
 import ru.geekbrains.toys.Toys.Toy;
-import ru.geekbrains.toys.UI.ViewToConsole;
-
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import ru.geekbrains.toys.UI.UI;
 import java.util.*;
 
 public class ServiceToys {
@@ -47,7 +43,7 @@ public class ServiceToys {
         return toys;
     }
     public void printToys(List<Toy> toys){
-        ViewToConsole console = new ViewToConsole();
+        UI console = new UI();
         console.ArrayPrint(toys);
     }
 }
